@@ -269,4 +269,7 @@
     background: linear-gradient(to left bottom,#ff0090,#ff0090,#ff2f00, #ffaa00,#ffaa00 );
     padding: 1px;
 }
-    
+footer{
+    text-align: center;
+    font-size: 12px;
+}
