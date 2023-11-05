@@ -253,4 +253,20 @@
         color: #3897f0;
         font-size: 20px;
     }
+.user-profile {
+    flex: 0 0 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.user-profile img {
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    background: linear-gradient(to left bottom,#ff0090,#ff0090,#ff2f00, #ffaa00,#ffaa00 );
+    padding: 1px;
+}
     
