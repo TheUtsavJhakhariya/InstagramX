@@ -21,5 +21,5 @@ let currentIndex = 0;
         }, 2000);
 
         function goBack() {
-        window.location.href = 'untitled Github (114).html';
+        window.location.href = 'utsavthegreatmma.html';
         }
