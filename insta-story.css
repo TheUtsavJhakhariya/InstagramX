@@ -1,0 +1,81 @@
+
+        body{
+            background-color: black;
+        }
+        .Insta-story {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 97vh;
+        }
+
+        .Insta-story h1{
+            color: white;
+            font-size: 18px;
+            margin-bottom: 160%;
+            margin-right: 130px;
+        }
+        .Insta-story h1 span{
+            font-weight: lighter;
+            margin-left: 10px;
+            color: rgb(198, 198, 198);
+        }
+        .profile{
+            margin-bottom: 155%;
+            margin-right: 10px;
+            height: 5%;
+            width: 9%;
+            border-radius: 30px;
+        }
+
+        .story-screen {
+            width: 360px;
+            height: 640px;
+            border: 1px solid #000000;
+            background-size: cover;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+        #screen1{
+            background: url('https://www.thesun.ie/wp-content/uploads/sites/3/2020/04/1824283-e1588086172961.jpg');
+            background-size: cover;
+        }
+        #screen2{
+            background: url('https://media.gq.com/photos/59693d1605b12609907480a8/master/w_1600/Conor-McGregor-Style-2016-11-19-16.jpg');
+            background-size: cover;
+        }
+        #screen3{
+            background: url('https://www.rollingstone.com/wp-content/uploads/2018/06/rs-conor-mcgregor-0a4cb4b7-235c-4570-8794-d49170d452a8.jpg?crop=900:600&width=440');
+            background-size: cover;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1em;
+        }
+
+        button {
+            padding: 5px;
+            margin: 0 20px;
+            width: 30px;
+            background-color: rgb(107, 107, 107);
+            color: white;
+            border: none;
+            border-radius: 20px;
+        }
+        .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+    
