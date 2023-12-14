@@ -9,7 +9,7 @@ let currentIndex = 0;
         function next() { 
             currentIndex = (currentIndex + 1) % screens.length;
             showScreen(currentIndex);
-        }
+        } 
 
         function prev() {
             currentIndex = (currentIndex - 1 + screens.length) % screens.length;
