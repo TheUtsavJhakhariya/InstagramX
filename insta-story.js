@@ -6,7 +6,7 @@ let currentIndex = 0;
             screens[index].style.display = 'flex';
         }
  
-        function next() { 
+        function next() {  
             currentIndex = (currentIndex + 1) % screens.length;
             showScreen(currentIndex);
         } 
