@@ -1,6 +1,6 @@
 let currentIndex = 0;
         const screens = document.querySelectorAll('.story-screen');
-
+ 
         function showScreen(index) {
             screens.forEach(screen => screen.style.display = 'none');
             screens[index].style.display = 'flex';
