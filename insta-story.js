@@ -3,7 +3,7 @@ let currentIndex = 0;
  
         function showScreen(index) { 
             screens.forEach(screen => screen.style.display = 'none');
-            screens[index].style.display = 'flex'; 
+            screens[index].style.display = 'flex';  
         } 
    
         function next() {   
